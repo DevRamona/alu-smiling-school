@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smile School</title>
+    <meta name="description" content="Implementing a design with Bootstrap" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Coiny&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- custom style -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/9b597d4a7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md bg-transparent fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="pr-3"
+            width="50"
+            src="./images/smile_off.png"
+            alt="smile-off" /><img
+            width="150"
+            src="./images/logo.png"
+            alt="Smile School  logo"
+        /></a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-md-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav text-uppercase font-weight-bold">
+            <li class="nav-item active" aria-current="true">
+              <a href="#" class="nav-link color-primary">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div class="jumbotron jumbotron-fluid courses mb-0">
+      <div class="container text-center text-light mt-5">
+        <h2 class="text-center mt-5 mb-5 font-weight-light">
+          &laquo; Don't cry because it's over. <br />
+          <span class="color-primary">Smile</span> because ir happened. &raquo;
+        </h2>
+      </div>
+    </div>
+    <!-- form -->
+    <section class="background-primary text-light pt-4">
+      <div class="container pb-4">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-4 font-weight-bold text-uppercase">
+              <label for="inputkey4">keywords</label>
+              <input type="key" class="form-control" id="inputkey4"
+              placeholder="Search by keywords" />
+            </div>
+            <div class="form-group col-md-4 font-weight-bold text-uppercase">
+              <label for="inputTopic">Topic</label>
+              <select id="inputTopic" class="form-control">
+                <option selected>Novice</option>
+                <option>Novice</option>
+                <option>Intermediate</option>
+                <option>Expert</option>
+              </select>
+            </div>
+            <div class="form-group col-md-4 font-weight-bold text-uppercase">
+              <label for="inputSort">Sort by</label>
+              <select id="inputSort" class="form-control">
+                <option selected>Most popular</option>
+                <option>Most popular</option>
+                <option>Most recent</option>
+                <option>Most viewed</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- videos -->
+    <!-- Footer -->
+  </body>
+</html>
